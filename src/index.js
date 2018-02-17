@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Add youtube API key
-const API_KEY = ' AIzaSyAiKWwTFikHPnt3CkV1XuQlRWGdVAK6h3s';
+const API_KEY = 'AIzaSyAiKWwTFikHPnt3CkV1XuQlRWGdVAK6h3s';
 
 // Create a new component. It should produce some HTML
 // const represents a constant that never changes and is a variation on variable. It is ES6
