@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 // Create a new component. It should produce some HTML
 
 // const represents a constant that never changes and is a variation on variable. It is ES6
-const App = function() {
+const App = () => {
     return <div>Hi!</div>; // returnig what looks like HTML in JavaScript is JSX.
 }
 
