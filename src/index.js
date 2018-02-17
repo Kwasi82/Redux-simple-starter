@@ -1,6 +1,6 @@
-//This calls the library 'react' from the node modules folder and assigns it to variable 'React'
+//This calls the library 'react' from the node modules folder and assigns it to variable 'React'. This manages components. 
 import React from 'react';
-//We use ReactDom library to do the actual rendoring to the DOM
+//We use ReactDom library to do the actual rendoring to the DOM.
 import ReactDOM from 'react-dom';
 
 
