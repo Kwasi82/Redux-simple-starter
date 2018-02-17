@@ -5,3 +5,6 @@ import React from 'react';
 const SearchBar = () => {
     return <input />;
 };
+
+//This provides the SearchBar component to other files. It needs to be imported to files that may need it.
+export default SearchBar;
