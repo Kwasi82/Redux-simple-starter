@@ -3,9 +3,10 @@ import React from 'react';
 //We use ReactDom library to do the actual rendoring to the DOM.
 import ReactDOM from 'react-dom';
 
+// Add youtube API key
+const API_KEY = ' AIzaSyAiKWwTFikHPnt3CkV1XuQlRWGdVAK6h3s';
 
 // Create a new component. It should produce some HTML
-
 // const represents a constant that never changes and is a variation on variable. It is ES6
 const App = () => {
     return <div>Hi!</div>; // returnig what looks like HTML in JavaScript is JSX.
