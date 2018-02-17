@@ -8,6 +8,8 @@ import React, { Component } from 'react'; //This is an ES6 syntax verison
 };
 */
 
+/* This option shows one way to handle events with two methods.
+
 //This defines a class SearchBar and provide all the functionality of React.Component class. 
 //class SearchBar extends React.Component { //*1 This is the normal version
 class SearchBar extends Component { //This is an ES6 syntax version
@@ -20,6 +22,10 @@ class SearchBar extends Component { //This is an ES6 syntax version
         console.log(event.target.value);
     }
 }
+
+*/
+
+// This option uses a arrow function for condensing code.
 
 //This provides the SearchBar component to other files. It needs to be imported to files that may need it.
 export default SearchBar;
