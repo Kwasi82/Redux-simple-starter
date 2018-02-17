@@ -12,7 +12,12 @@ import React, { Component } from 'react'; //This is an ES6 syntax verison
 //class SearchBar extends React.Component { //*1 This is the normal version
 class SearchBar extends Component { //This is an ES6 syntax version
     render() { //This is how method is defined on a class. Every class needs a render method.
-        return <input />;
+        //This becomes the event listener. JavaScript variables are placed in curly brackets. We can access HTML attributes like 'onChange' 
+        return <input onChange={this.onInputChange} />;
+    }
+    //This is the event handler
+    onInputChange() {
+
     }
 }
 
