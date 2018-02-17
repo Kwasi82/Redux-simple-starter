@@ -16,8 +16,8 @@ class SearchBar extends Component { //This is an ES6 syntax version
         return <input onChange={this.onInputChange} />;
     }
     //This is the event handler
-    onInputChange() {
-
+    onInputChange(event) {
+        console.log(event.target.value);
     }
 }
 
