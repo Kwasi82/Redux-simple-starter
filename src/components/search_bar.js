@@ -26,6 +26,11 @@ class SearchBar extends Component { //This is an ES6 syntax version
 */
 
 // This option uses a arrow function for condensing code.
+class SearchBar extends Component {
+    render() {
+        return <input onChange={event => console.log(event.target.value)} />;
+    }
+}
 
 //This provides the SearchBar component to other files. It needs to be imported to files that may need it.
 export default SearchBar;
