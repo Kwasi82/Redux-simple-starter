@@ -1,5 +1,8 @@
 //This calls the library 'react' from the node modules folder and assigns it to variable 'React'
 import React from 'react';
+//We use ReactDom library to do the actual rendoring to the DOM
+import ReactDOM from 'react-dom';
+
 
 // Create a new component. It should produce some HTML
 
