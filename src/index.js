@@ -13,4 +13,4 @@ const App = function() {
 
 // Take this component's generated HTML and put it on the page (in the DOM)
 // React.render contains the instance of App to be rendered and the second part refers to the reference for the rendered item appear in HTML
-React.render(<App />, document.querySelector('.container'));
+ReactDOM.render(<App />, document.querySelector('.container'));
