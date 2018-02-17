@@ -4,7 +4,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Add youtube API key
-const API_KEY = 'AIzaSyAiKWwTFikHPnt3CkV1XuQlRWGdVAK6h3s';
+const API_KEY = 'AIzaSyAiKWwTFikHPnt3CkV1XuQlRWGdVAK6h3s'; //'npm install --save youtube-api-search' installs youtube api search. '--save' means it saves to 'package.json' file with all the other packages.
+
+
 
 // Create a new component. It should produce some HTML
 // const represents a constant that never changes and is a variation on variable. It is ES6
