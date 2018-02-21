@@ -27,6 +27,11 @@ class SearchBar extends Component { //This is an ES6 syntax version
 
 // This option uses a arrow function for condensing code.
 class SearchBar extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = { term: ''};
+    }
     render() {
         return <input onChange={event => console.log(event.target.value)} />;
     }
